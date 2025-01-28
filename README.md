@@ -1,0 +1,1 @@
+This repository contains an example of a potential out-of-bounds memory access bug in assembly code and its solution. The bug arises from the use of an unvalidated ecx register in a memory access instruction. The solution involves adding a check to ensure that ecx is within the valid bounds before accessing memory.
