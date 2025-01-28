@@ -1,0 +1,1 @@
+mov eax, [ebx+ecx*4] ;This line has a potential bug if ecx is very large and causes an out-of-bounds memory access.
